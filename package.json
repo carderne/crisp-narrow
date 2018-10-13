@@ -1,5 +1,5 @@
 {
-    "name"        : "crisp",
+    "name"        : "crisp-narrow",
     "description" : "A minimalist, responsive, and open-source theme for Ghost",
     "version"     : "1.0.0",
     "engines": {
@@ -11,9 +11,9 @@
         "mobile": "assets/screenshot-mobile.png"
     },
     "author": {
-        "name": "Kathy Qian",
-        "email": "hello@kathyqian.com",
-        "url": "https://kathyqian.com"
+        "name": "Chris Arderne",
+        "email": "chris@rdrn.me",
+        "url": "https://rdrn.me"
     },
     "gpm": {
         "type": "theme",
@@ -29,10 +29,10 @@
     ],
     "repository": {
         "type": "git",
-        "url": "https://github.com/kathyqian/crisp.git"
+        "url": "https://github.com/carderne/crisp-narrow.git"
     },
-    "bugs": "https://github.com/kathyqian/crisp/issues",
-    "contributors": "https://github.com/kathyqian/crisp/graphs/contributors",
+    "bugs": "https://github.com/carderne/crisp-narrow/issues",
+    "contributors": "https://github.com/carderne/crisp-narrow/graphs/contributors",
     "config": {
         "posts_per_page": 10
     }
