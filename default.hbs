@@ -2,6 +2,7 @@
 <html lang="en">
 	<head>
 	    {{! Document Settings }}
+            <link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?9ukd8d">
 	    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
 	    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	    {{! Page Meta }}
@@ -27,12 +28,15 @@
 		<header id="header">
 			{{#if @blog.logo}}<a id="logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}
 			<h1><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
-			<p>{{@blog.description}}</p>
-			{{> follow}}
+                        <p>{{@blog.description}}</p>
+                        <div id="new-social">
+                                <a href="mailto:chris@rdrn.me" class="socicon-mail"></a>
+                                <a href="https://www.linkedin.com/in/chris-arderne" class="socicon-linkedin"></a>
+                                <a href="http://github.com/carderne" class="socicon-github"></a>
+                        </div>
 			{{navigation}}
-                        Here is a thing here!
 		</header>
-		<main id="content">
+		<main id="content"> 
 			{{{body}}}
 		</main>
 		<footer id="footer">
