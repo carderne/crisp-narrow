@@ -2,7 +2,7 @@
 <html lang="en">
 	<head>
 	    {{! Document Settings }}
-            <link rel="stylesheet" href="https://d1azc1qln24ryf.cloudfront.net/114779/Socicon/style-cf.css?9ukd8d">
+            <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 	    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
 	    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	    {{! Page Meta }}
@@ -10,7 +10,7 @@
 			{{! Styles }}
 	    <link href='//fonts.googleapis.com/css?family=Open+Sans:300italic,700italic,300,700' rel='stylesheet' type='text/css'>
 			<link href='//fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
-			<link href="//netdna.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+
 			<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/styles/default.min.css">
 			<link rel="stylesheet" type="text/css" href="{{asset '/styles/crisp.css'}}">
 			{{! Responsive Meta Tags }}
@@ -29,18 +29,14 @@
 			{{#if @blog.logo}}<a id="logo" href="{{@blog.url}}"><img src="{{@blog.logo}}" alt="{{@blog.title}}" /></a>{{/if}}
 			<h1><a href="{{@blog.url}}">{{@blog.title}}</a></h1>
                         <p>{{@blog.description}}</p>
-                        <div id="new-social">
-                                <a href="mailto:chris@rdrn.me" class="socicon-mail"></a>
-                                <a href="https://www.linkedin.com/in/chris-arderne" class="socicon-linkedin"></a>
-                                <a href="http://github.com/carderne" class="socicon-github"></a>
-                        </div>
+			{{> follow}}
 			{{navigation}}
 		</header>
 		<main id="content"> 
 			{{{body}}}
 		</main>
 		<footer id="footer">
-			<section id="footer-message">&copy; {{date format='YYYY'}} {{@blog.title}}. All rights reserved.</section>
+			<section id="footer-message">&copy; {{date format='YYYY'}} {{@blog.title}}.</section>
 		</footer>
 	{{ghost_foot}}
 	<script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/8.4/highlight.min.js"></script>
