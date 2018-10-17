@@ -101,7 +101,7 @@ figure {
 	width: 100%;
 }
 
-.kg-width-wide .kg-width-full {
+.kg-width-wide, .kg-width-full {
 	width: 200%;
 }
 
