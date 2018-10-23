@@ -1,9 +1,6 @@
 # crisp-narrow
-Ghost theme built on crisp and other bits
-
-Mostly based on [kathyqian/crisp](https://github.com/kathyqian/crisp) with bits and pieces changed and played with. Used on my personal blog: https://rdrn.me/
+Ghost theme built on [crisp](https://github.com/kathyqian/crisp) with a lot of tweaks. I use it with [buster](https://github.com/carderne/buster) to publish my blog on GitHub Pages. Social Icons from [here](http://www.socicon.com/chart.php) and some stylistic cues from [gergelyorosz/GhostSocialCasper](https://github.com/gergelyorosz/GhostSocialCasper) 
 
 Compatible with Ghost v2.2+
 
-Uses Social Icons from [here](http://www.socicon.com/chart.php)
-And stylistic cues from [gergelyorosz/GhostSocialCasper](https://github.com/gergelyorosz/GhostSocialCasper)
+I'm currently using it on my personal blog: https://rdrn.me/
