@@ -30,6 +30,6 @@
     "bugs": "https://github.com/carderne/crisp-narrow/issues",
     "contributors": "https://github.com/carderne/crisp-narrow/graphs/contributors",
     "config": {
-        "posts_per_page": 10
+        "posts_per_page": 50
     }
 }
